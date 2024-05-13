@@ -123,8 +123,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = BASE_dir/'assets'
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFileStorage"
+STATIC_ROOT = BASE_DIR/'assets'
+#STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFileStorage"
     
 MEDIA_URL = 'media/'
 MEDIA_ROOT =os.path.join(BASE_DIR,'media')
